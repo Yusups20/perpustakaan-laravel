@@ -1,9 +1,6 @@
 <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/home">
-        <div class="sidebar-brand-icon">
-            <img src="{{ asset('/img/logo.png') }}">
-        </div>
-        <div class="sidebar-brand-text mx-3">Universitas Sangga Buana</div>
+        <div class="sidebar-brand-text mx-3">Perpustakaan <br>SMK Assalaam</div>
     </a>
     <hr class="sidebar-divider my-0">
     <li class="nav-item">

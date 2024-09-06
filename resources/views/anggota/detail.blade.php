@@ -52,12 +52,12 @@
                 </div>
 
                 <div class="form-group mb-3">
-                    <label for="npm" class="text-lg text-primary font-weight-bold">Nomor Induk Mahasiswa</label>
+                    <label for="npm" class="text-lg text-primary font-weight-bold">Kelas</label>
                     <h4>{{ $profile->npm }}</h4>
                 </div>
 
                 <div class="form-group mb-3">
-                    <label for="prodi" class="text-lg text-primary font-weight-bold">Program Studi</label>
+                    <label for="prodi" class="text-lg text-primary font-weight-bold">Jurusan</label>
                     <h4>{{ $profile->prodi }}</h4>
                 </div>
 

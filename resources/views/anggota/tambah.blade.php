@@ -27,7 +27,7 @@
         @enderror
 
         <div class="form-group mx-4 my-2">
-            <label for="npm" class="text-md text-primary font-weight-bold">Nomor Induk Masiswa</label>
+            <label for="npm" class="text-md text-primary font-weight-bold">Kelas</label>
             <input type="text" id="npm" class="form-control @error('npm') is-invalid @enderror" name="npm" value="{{ old('npm') }}">
         </div>
 
@@ -36,7 +36,7 @@
         @enderror
 
         <div class="form-group mx-4 my-2">
-            <label for="nama" class="text-md text-primary font-weight-bold">Program Studi</label>
+            <label for="nama" class="text-md text-primary font-weight-bold">Jurusan</label>
             <input type="text" id="prodi" class="form-control @error('prodi') is-invalid @enderror" name="prodi" value="{{ old('prodi') }}">
         </div>
 
